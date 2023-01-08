@@ -10,7 +10,7 @@ public class sample_1 {
         height = height / 100;
         double BMI = weight / height / height;
         System.out.println("あなたのBMIは");
-        System.out.println(BMI + "です");
+        System.out.println(String.format("%.2f",BMI)+ "です");
 
         if(BMI > 25) {
             System.out.println("肥満です");
